@@ -1,0 +1,42 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 51px 120px 0 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.container h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+}
+.container p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+.container .h1 {
+  color: #34A573;
+}
+.container .p1 {
+  padding-top: 20px;
+}
+.container button {
+  margin-top: 30px;
+  padding: 15px 90px;
+  color: white;
+  background-color: #34A573;
+  border: 1px solid #34A573;
+  border-radius: 15px;
+}

@@ -1,0 +1,33 @@
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 51px 120px 0 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    h2 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 50px;
+    }
+    p {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .h1 {
+        color: #34A573;
+    }
+    .p1 {
+        padding-top: 20px;
+    }
+    button {
+        margin-top: 30px;
+        padding: 15px 90px;
+        color: white;
+        background-color: #34A573;
+        border: 1px solid #34A573;
+        border-radius: 15px;
+    }
+}
