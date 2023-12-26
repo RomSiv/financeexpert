@@ -1,0 +1,45 @@
+.header {
+  padding: 35px 120px;
+  background-color: #282828;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: "Lato", sans-serif;
+}
+.header div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+}
+.header div a {
+  text-decoration: none;
+  color: white;
+}
+
+.links {
+  gap: 40px;
+  font-size: 16px;
+}
+
+.contact {
+  gap: 20px;
+  font-size: 18px;
+  position: relative;
+}
+
+.lenguage_menu {
+  padding: 5px;
+  border-radius: 7px;
+  position: absolute;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  right: 149px;
+  top: 25px;
+  background-color: #282828;
+}
