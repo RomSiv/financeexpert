@@ -39,6 +39,7 @@
         font-weight: 400;
         font-size: 16px;
         font-style: normal;
+        padding-bottom: 6px;
       }
       .count {
         font-size: 60px;
@@ -47,8 +48,16 @@
         color: #34a573;
       }
     }
-    .counters > div {
+    .count_1 {
+      width: 255px;
+    }
+    .count_2 {
         width: 200px;
+    }
+
+    .line {
+        border-top: 1px solid #d1d1d1;
+        padding-top: 10px;
     }
   }
 }

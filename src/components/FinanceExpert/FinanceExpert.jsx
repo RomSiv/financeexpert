@@ -24,19 +24,19 @@ export default function FinanceExpert() {
             zdalnie – współpraca z klientami z całej Polski
           </p>
           <div className="counters">
-            <div>
+            <div className="count_1">
               <p className="distruction">lat doświadczenia</p>
               <div className="line">
                 <p className="count">5 +</p>
               </div>
             </div>
-            <div>
+            <div className="count_2">
               <p className="distruction">klientów</p>
               <div className="line">
                 <p className="count">130+</p>
               </div>
             </div>
-            <div>
+            <div className="count_1">
               <p className="distruction">dokumentów miesięcznie</p>
               <div className="line">
                 <p className="count">2300+</p>
