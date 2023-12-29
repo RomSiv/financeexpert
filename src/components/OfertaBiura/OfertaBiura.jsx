@@ -1,5 +1,6 @@
 import React from "react";
-import s from "./OfertaBiura.module.css";
+// import s from "./OfertaBiura.module.css";
+import './OfertaBiura.css'
 import { Splide, SplideTrack, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import icon_1 from "../../images/rejstracja_spolek.svg";
@@ -13,7 +14,7 @@ import arrow_right from "../../images/icons8-arrow-32.png";
 
 export default function OfertaBiura() {
   return (
-    <div className={s.container}>
+    <div className='slide_container'>
       <div>
         <h2>Oferta biura rachunkowego</h2>
         <div>
@@ -28,9 +29,9 @@ export default function OfertaBiura() {
             hasTrack={false}
             aria-label=" "
           >
-            <div className={s.castom_wrapper}>
-              <SplideTrack className={s.slide_container}>
-                <SplideSlide className={s.slide}>
+            <div className='castom_wrapper'>
+              <SplideTrack className='slides_container'>
+                <SplideSlide className='slide'>
                   <div>
                     <img src={icon_1} alt="Rejestracja spółek oraz JDG" />
                     <h3>Rejestracja spółek oraz JDG</h3>
@@ -44,7 +45,7 @@ export default function OfertaBiura() {
                     </p>
                   </div>
                 </SplideSlide>
-                <SplideSlide className={s.slide}>
+                <SplideSlide className='slide'>
                   <div>
                     <img src={icon_2} alt="Obsługa księgowa" />
                     <h3>Obsługa księgowa</h3>
@@ -57,7 +58,7 @@ export default function OfertaBiura() {
                     </p>
                   </div>
                 </SplideSlide>
-                <SplideSlide className={s.slide}>
+                <SplideSlide className='slide'>
                   <div>
                     <img src={icon_3} alt="Kadry i płace" />
                     <h3>Kadry i płace</h3>
@@ -70,7 +71,7 @@ export default function OfertaBiura() {
                     </p>
                   </div>
                 </SplideSlide>
-                <SplideSlide className={s.slide}>
+                <SplideSlide className='slide'>
                   <div>
                     <img src={icon_4} alt="Sprawozdania finansowe" />
                     <h3>Sprawozdania finansowe</h3>
@@ -83,7 +84,7 @@ export default function OfertaBiura() {
                     </p>
                   </div>
                 </SplideSlide>
-                <SplideSlide className={s.slide}>
+                <SplideSlide className='slide'>
                   <div>
                     <img src={icon_5} alt="Aktualizacja KRS" />
                     <h3>Aktualizacja KRS</h3>
@@ -96,7 +97,7 @@ export default function OfertaBiura() {
                     </p>
                   </div>
                 </SplideSlide>
-                <SplideSlide className={s.slide}>
+                <SplideSlide className='slide'>
                   <div>
                     <img src={icon_6} alt="Wsparcie w czasie kontroli" />
                     <h3>Wsparcie w czasie kontroli</h3>
@@ -109,7 +110,10 @@ export default function OfertaBiura() {
                   </div>
                 </SplideSlide>
               </SplideTrack>
-              <div className={s.splide__arrows}></div>
+              <div className="splide__arrows">
+    <button className="splide__arrow splide__arrow--prev">Prew</button>
+    <button className="splide__arrow splide__arrow--next">Next</button>
+  </div>
             </div>
           </Splide>
         </div>

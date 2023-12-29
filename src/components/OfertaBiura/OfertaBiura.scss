@@ -1,0 +1,47 @@
+.slide_container {
+    padding: 50px 120px;
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100vw;
+    h2 {
+      padding-bottom: 40px;
+      font-family: Open Sans;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+    .slide {
+      max-width: 570px;
+      width: 100vw;
+      max-height: 320px;
+      height: 100vh;
+      background-color: #f5f5f7;
+      border-radius: 15px;
+      div {
+        padding: 40px;
+        img {
+          padding-bottom: 15px;
+        }
+        h3 {
+          font-family: Open Sans;
+          font-size: 25px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          padding-bottom: 15px;
+        }
+        p {
+          font-family: Lato;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 130%;
+        }
+      }
+    }
+  }
+  
+  .splide__arrow--prev {
+    right: 20px;
+  }
